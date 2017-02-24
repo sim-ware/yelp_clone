@@ -14,6 +14,7 @@ end
 gem 'devise'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'omniauth-facebook'
+gem 'shoulda', '~> 3.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'

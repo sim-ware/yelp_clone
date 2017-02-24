@@ -7,4 +7,8 @@ module Helpers
     fill_in('Password confirmation', with: 'testtest')
     click_button('Sign up')
   end
-end 
+
+  def hello
+    puts 'hello'
+  end
+end
